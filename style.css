@@ -1,0 +1,124 @@
+body{
+    overflow: hidden;
+}
+
+
+/* .all{
+   position: relative;
+} */
+
+
+.head{
+    background-color: pink;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 6px black solid;
+    margin: 50px auto; 
+}
+
+.ear1{
+    background-color: pink;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 6px black solid;
+    margin: auto;
+    position: relative;
+    top: -360px;
+    left: 100px ;
+    z-index: -1;
+}
+
+.ear2{
+    background-color: pink;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 6px black solid;
+    margin: auto;
+    position: relative;
+    top:-452px ;
+    right: 100px ;
+    z-index: -1;
+}
+
+.eye1{
+    background-color:whitesmoke;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 3px black solid;
+    margin: auto;
+    position: relative;
+    top: -475px;
+    right: 70px;
+    
+}
+
+.eye2{
+    background-color: whitesmoke;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 3px black solid;
+    margin: auto;
+    position: relative;
+    top: -550px;
+    left: 70px;
+}
+
+.eyelid1{
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    top: -610px;
+    left: 70px;
+}
+
+.eyelid2{
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    top: -649px;
+    right: 70px;
+}
+
+.mouth{
+    background-color: rgb(252, 118, 140);
+    height: 80px;
+    width: 190px;
+    border-radius: 26px 26px 26px 26px;
+    border: 4px black solid;
+    margin: auto;
+    position: relative;
+    bottom: 610px;
+}
+
+.nose1{
+    background-color: black;
+    height: 60px;
+    width: 50px;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    bottom: 685px;
+    right: 40px;
+}
+
+.nose2{
+    background-color: black;
+    height: 60px;
+    width: 50px;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    bottom: 745px;
+    left: 40px;
+}
